@@ -1,0 +1,10 @@
+flask
+requests
+beautifulsoup4
+feedgen
+apscheduler
+sqlalchemy
+pytz
+croniter
+replicate
+waitress

@@ -1,0 +1,11 @@
+{
+  "timezone": "Europe/Berlin",
+  "feeds": [
+    {
+      "name": "ebooks",
+      "url_to_fetch": "https://avxhm.in/ebooks",
+      "url_prefix": "https://avxhm.in",
+      "cron": "*/10 * * * *"
+    }
+  ]
+}

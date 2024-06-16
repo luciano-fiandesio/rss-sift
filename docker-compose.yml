@@ -1,0 +1,14 @@
+services:
+  rss-sift:
+    build: .
+    ports:
+      - "8088:8080"
+    volumes:
+      - .:/app
+      - ./config.json:/app/config.json  # Map the config.json file
+      - ./feeds.db:/app/feeds.db
+
+networks:
+  default:
+    name: $DOCKER_MY_NETWORK
+    external: true
