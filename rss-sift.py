@@ -171,7 +171,7 @@ def parse_and_store_feed(feed_name, url_to_fetch, url_prefix):
             continue
 
         # Check if the year is 2024 and language is English or not present
-        if '2024' not in additional_info:
+        if '2025' not in additional_info:
             continue
         if 'English' not in additional_info:
             continue
