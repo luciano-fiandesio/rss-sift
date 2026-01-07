@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Skill(superpowers:using-superpowers)"
+      "Skill(superpowers:using-superpowers)",
+      "Bash(uv run python:*)"
     ]
   }
 }

@@ -1,5 +1,6 @@
 {
   "timezone": "Europe/Berlin",
+  "target_year": 2026,
   "feeds": [
     {
       "name": "ebooks",
